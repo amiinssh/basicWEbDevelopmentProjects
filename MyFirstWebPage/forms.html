@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="results.php" method="POST">
+        <label for="fistname">Firstname:</label>
+        <input type="'text" name="firstname" id="firstname"><br/>
+        <label for="Lastname">Lastname:</label>
+        <input type="'text" name="Lastname" id="Lastname">
+
+        <h3>Choose the skills you have acquired:</h3>
+        <input type="checkbox" name="skill1" value="java" id="skill1">
+        <label for="skill1">Java</label><br/>
+        <input type="checkbox" name="skill2" value="python" id="skill2">
+        <label for="skill2">Python</label><br/>
+        <input type="checkbox" name="skill3" value="Go" id="skill3">
+        <label for="skill3">Go</label>
+
+        <h3>Please select the level of expertise</h3>
+        <input type="radio" name="expertiselevel" value="beginner" id="beginner">
+        <label for="beginner">Beginner</label><br/>
+        <input type="radio" name="expertiselevel" value="intermidiete" id="intermidiete">
+        <label for="intermidiete">Intermidiete</label><br/>
+        <input type="radio" name="expertiselevel" value="advanced" id="advanced">
+        <label for="advanced">Advanced</label><br/>
+
+        <h3>Please select the level of expertise</h3>
+        <select name="levelofexpertise">
+            <option value="beginner">Beginner</option>
+            <option value="intermidiete">Intermidiete</option>
+            <option value="advanced">Advanced</option>
+        </select><br/>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age"><br/>
+
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date"><br/>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br/>
+
+        <textarea name="message" id="message" placeholder="Enter your message here"></textarea><br/>
+
+        <label for="Password">Password</label>
+        <input type="password" name="password" id="password"><br/>
+
+        <input type="submit" vlaue="Submit Form">
+    </form>
+    
+</body>
+</html>
