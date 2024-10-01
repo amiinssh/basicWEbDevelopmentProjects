@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: cornflowerblue;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.content-container p {
+    width: 600px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.cta-btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    background-color: crimson;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px black;
+    cursor: pointer;
+}
+
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal {
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: 400px;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-form div {
+    margin: 20px 0;
+}
+
+.modal-form label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.modal-form .form-input {
+    padding: 8px;
+    width: 100%;
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.modal-container .sumit-btn {
+    padding: 15px 40px;
+    font-weight: bold;
+    border: none;
+    background-color: crimson;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px black;
+}
+
+.modal-container.show-modal {
+    display: block;
+}

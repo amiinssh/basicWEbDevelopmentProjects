@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="content-container">
+            <h1>Lorem, ipsum dolor sit amet consectetur</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                 Perspiciatis temporibus iure pariatur, placeat voluptatem quod aspernatur amet magnam dolorem vel, 
+                 rem aliquam labore repellendus perferendis deleniti omnis rerum assumenda veritatis?
+                </p>
+
+                <button class="cta-btn" id="open">Sign up</button>
+
+        </div>
+    </header>
+
+    <section id="modal" class="modal-container">
+        <section class="modal">
+            <button class="close-btn" id="close">X</button>
+            <div class="modal-content">
+                <h1>Sign Up</h1>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" class="form-input" placeholder="Enter Your Name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" class="form-input" placeholder="Enter Your Email">
+                    </div>
+
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="text" id="password" class="form-input" placeholder="Enter Your Password">
+                    </div>
+
+                    <div>
+                        <label for="password2">Confirm Password:</label>
+                        <input type="text" id="password2" class="form-input" placeholder="Confirm your password">
+                    </div>
+                    <input type="submit" value="Submit" class="sumit-btn">
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
