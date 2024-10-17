@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8; 
+}
+
+.password-container {
+  background-color: #008b8b; 
+  width: 500px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+  border-radius: 12px; 
+  margin: 10px;
+}
+
+.input-container {
+  padding: 12px; 
+  border-radius: 10px;
+  display: flex;
+  border: 2px solid #004d40; 
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0f7fa; 
+}
+
+.input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 24px;
+  letter-spacing: 2px; 
+  color: #004d40; 
+  width: 90%; 
+}
+
+.input::placeholder {
+  color: #9e9e9e; 
+}
+
+i {
+  cursor: pointer;
+  opacity: 0.5; 
+  color: #004d40; 
+  transition: opacity 0.2s ease; 
+}
+
+i:hover {
+  opacity: 1; 
+}
+
+.btn {
+  background: #004d40; 
+  color: white;
+  border: none;
+  padding: 12px 20px; 
+  margin: 12px 0;
+  border-radius: 8px;
+  font-size: 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #00796b; 
+}
+
+.btn:active {
+  transform: scale(0.98); 
+}
+
+.alert-container {
+  width: 300px;
+  height: 50px;
+  position: fixed;
+  background-color: #4caf50; 
+  right: 20px;
+  bottom: 20px;
+  border-radius: 12px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px; 
+  font-weight: 500; 
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  transition: 0.4s ease;
+}
+
+.active.alert-container {
+  right: 20px;
+  opacity: 1;
+}
